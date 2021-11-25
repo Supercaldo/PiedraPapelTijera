@@ -1,0 +1,63 @@
+
+body{
+background: rgb(156, 203, 242);
+
+}
+
+header{
+    padding: 10px;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.results {
+    text-align: center;
+    font-size: 25px;
+    color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+   
+}
+
+.options {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.option {
+    width: 90px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+
+.option:hover{
+    background-color:rgb(255, 255, 0);
+    cursor: pointer;
+    border-radius: 70%;
+}
+
+
+.winner{
+    color: rgb(8, 106, 8);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+   
+}
+
+.loser{
+    color: red;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+.draw{
+    color: slateblue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
